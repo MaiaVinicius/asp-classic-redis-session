@@ -7,8 +7,8 @@ Provides a way to change the default Asp Classic Session State to a Redis Sessio
 
 - Clone this repo to `\inetpub\wwwroot\redis-session`
 - Create some Environment Variables
-    - APP_SALT : Some encrypted string to be used to generate the cookie
-    - REDIS_CONN : The Redis Connection String (See [this](https://stackexchange.github.io/StackExchange.Redis/Configuration.html#basic-configuration-strings) to understand)
+    - `APP_SALT` : Some encrypted string to be used to generate the cookie
+    - `REDIS_CONN` : The Redis Connection String (See [this](https://stackexchange.github.io/StackExchange.Redis/Configuration.html#basic-configuration-strings) to understand)
 - Go to `http://localhost/redis-session/start_session_example.asp` that simulates a successfull login
 - Then go to `http://localhost/redis-session/internal_page_example.asp`
 - Test the logout in `http://localhost/redis-session/logout_example.asp`
